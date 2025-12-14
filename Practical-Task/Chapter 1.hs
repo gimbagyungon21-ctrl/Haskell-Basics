@@ -35,3 +35,11 @@ main :: IO ()
 main = do
  print $ increment 2
 --output = 3
+
+circleArea :: Floating a => a -> a
+circleArea r = pi * r * r
+
+main :: IO ()
+main = do
+ print $ circleArea 3
+--output = 28.274333882308138
