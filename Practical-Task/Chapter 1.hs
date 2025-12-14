@@ -51,3 +51,11 @@ main :: IO ()
 main = do
  print $ multiply 2.1 3.1
 --output = 6.5099993
+
+greaterThan18 :: Int -> Bool
+greaterThan18 x = x >= 18
+
+main :: IO ()
+main = do
+ print $ greaterThan18 10
+--output = False
