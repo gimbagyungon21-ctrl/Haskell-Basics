@@ -13,3 +13,11 @@ main :: IO ()
 main = do
  print $ increment 5
  --output = 13
+
+doubleThenincrement :: Int -> Int
+doubleThenincrement x = x * 2 * 1
+
+main :: IO ()
+main = do
+ print $ doubleThenincrement 12
+--output = 24
