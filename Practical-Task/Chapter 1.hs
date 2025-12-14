@@ -43,3 +43,11 @@ main :: IO ()
 main = do
  print $ circleArea 3
 --output = 28.274333882308138
+
+multiply :: Float -> Float -> Float
+multiply x y = x * y
+
+main :: IO ()
+main = do
+ print $ multiply 2.1 3.1
+--output = 6.5099993
