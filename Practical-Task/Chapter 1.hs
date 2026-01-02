@@ -33,8 +33,8 @@ doubleThenincrement x = increment (double x)
 
 main :: IO ()
 main = do
- print $ increment 2
---output = 3
+ print $ doubleThenIncrement 2
+--output = 5
 
 circleArea :: Floating a => a -> a
 circleArea r = pi * r * r
